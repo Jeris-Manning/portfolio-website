@@ -140,7 +140,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: #188ae7;
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
@@ -172,6 +172,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+		font-family: 'Oswald', sans-serif;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -706,20 +707,25 @@ input, select, textarea {
 		list-style: decimal;
 		margin: 0 0 2rem 0;
 		padding-left: 1.25em;
+		
 	}
 
 		ol li {
 			padding-left: 0.25em;
+			background-color: #000000a1;
 		}
 
 	ul {
 		list-style: disc;
 		margin: 0 0 2rem 0;
 		padding-left: 1em;
+
 	}
 
 		ul li {
 			padding-left: 0.5em;
+			background-color: #000000a1;
+			font-family: 'Oswald', sans-serif;
 		}
 
 		ul.alt {
@@ -1278,6 +1284,7 @@ input, select, textarea {
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			background-color: #000000a1;
 		}
 
 			#header .logo .icon:before {
@@ -1290,6 +1297,9 @@ input, select, textarea {
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
+			background-color: #000000a1;
+			font-size: 1.5rem;
+			font-weight: 500;
 		}
 
 			#header .content .inner {
@@ -1628,6 +1638,9 @@ input, select, textarea {
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
+			color: white;
+			font-family: 'Oswald', sans-serif;
+
 		}
 
 		body.is-article-visible #footer {
